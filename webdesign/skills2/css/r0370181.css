@@ -1,0 +1,67 @@
+/*basisstijl*/
+
+body {
+    font-family: tahoma, sans-serif;
+    background-color: lightcyan;
+    color: black;
+}
+
+div {
+    background-image: url(../images/patroon.png);
+}
+
+a:active {
+    background-color: inherit;
+    color: blue;
+}
+
+ul a:link {
+    color: goldenrod;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /*flex container maken*/
+    background-color: darkslategrey;
+    border: 5px solid darkblue;
+    /*bd+*/
+    padding: 25px;
+    border-radius: 40px 40px 40px 40px;
+    /*linksboven - rechtsboven - rechtsonder - linksonder*/
+    box-shadow: 5px 5px 10px grey;
+    /*hoeveel naar rechts|hoeveel naar onder | verdoezeling (niet verplicht)|kleur*/
+}
+
+nav li {
+    flex: 1 1 100%;
+    display: flex;
+    margin: 0;
+    display: inline-block;
+    transition: all 1s;
+    text-align: center;
+}
+
+.navbalk:hover {
+    background-color: lightblue;
+    display: inline-block;
+}
+
+a:link {
+    background-color: inherit;
+    color: white;
+}
+
+a:visited {
+    background-color: inherit;
+    color: greenyellow;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

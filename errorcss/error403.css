@@ -1,0 +1,60 @@
+/* stijlregels die enkel voor 403 van toepassing zijn */
+body {
+    background-image: url(../errorimg/Stanis%C5%82aw_Rouppert_optNoEntry.jpg);
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, .85);
+    color: #242424;
+    margin: auto;
+    margin-top: 650px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: grey;
+        color: white;
+        background-image: url(../errorimg/no-admittance-sign_opt.jpg);
+
+    }
+
+
+    p {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
+        text-align: center;
+        color: steelblue;
+        font-size: 48;
+    }
+
+
+    .container {
+        max-width: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        color: #242424;
+        margin: auto;
+        margin-top: 50px;
+        padding: 50px;
+        border-radius: 50px;
+    }
+}

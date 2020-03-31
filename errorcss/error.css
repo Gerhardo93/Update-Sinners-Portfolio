@@ -1,0 +1,48 @@
+/* stijlregels die voor beide errorpagina's van toepassing zijn */
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #009cab;
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#container {
+    margin: auto;
+    width: 980px;
+    border: 5px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    color: black;
+    background-color: lightgrey;
+    border: 5px solid black;
+    padding: 10px;
+    color: black;
+    width: 8px;
+    text-align: center;
+
+}
+
+nav li {
+    flex: 1 1 100%;
+    display: flex;
+    margin: 0;
+    display: inline-block;
+    transition: all 1s;
+}
+
+.navbalk a {
+    color: brown;
+    margin: auto;
+    text-align: center;
+}
+
+.navbalk:hover {
+    background-color: lightgoldenrodyellow;
+}

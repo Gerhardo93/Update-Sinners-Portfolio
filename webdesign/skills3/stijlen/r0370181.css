@@ -1,0 +1,114 @@
+body {
+    background-color: red;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+div {
+    padding: 10px;
+    background-color: red;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: grey;
+        color: white;
+
+    }
+
+    div {
+        padding: 10px;
+        background-color: black;
+    }
+
+    h2 {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+
+    a {
+        color: black;
+    }
+
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        color: black;
+        background-color: lightgrey;
+        border: 5px solid grey;
+        padding: 25px;
+        color: black;
+        width: 992px;
+
+    }
+
+    nav li {
+        flex: 1 1 100%;
+        display: flex;
+        margin: 0;
+        display: inline-block;
+        transition: all 1s;
+    }
+
+    .navbalk {
+        color: black;
+    }
+
+    .navbalk:hover {
+        background-color: firebrick;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: silver;
+        color: black;
+        margin: auto;
+        padding: 12px;
+    }
+
+    div {
+        padding: 10px;
+        background-color: silver;
+    }
+
+
+    h2 {
+        color: navy;
+        font-family: 'Sacramento', cursive;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    a {
+        color: black;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        background-color: white;
+        border: 5px solid goldenrod;
+        padding: 25px;
+        color: white;
+        width: 992px;
+    }
+
+    nav li {
+        flex: 1 1 100%;
+        display: flex;
+        margin: 0;
+        display: inline-block;
+        transition: all 1s;
+    }
+
+    .navbalk:hover {
+        background-color: lightgoldenrodyellow;
+    }
+}

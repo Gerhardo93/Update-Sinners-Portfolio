@@ -1,0 +1,56 @@
+/* stijlregels die enkel voor 404 van toepassing zijn */
+body {
+    background-image: url(../errorimg/404%20not%20found.jpg);
+    font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, .85);
+    color: #242424;
+    margin: auto;
+    margin-top: 750px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: grey;
+        color: white;
+        background-image: url(../errorimg/missingPageMan.jpg);
+
+    }
+
+
+    p {
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
+        text-align: center;
+        color: yellow
+    }
+
+
+    .container {
+        max-width: 400px;
+        background-color: rgba(0, 40, 0, .3);
+        color: #242424;
+        margin: auto;
+        margin-top: 450px;
+        padding: 50px;
+        border-radius: 50px;
+    }
+}
